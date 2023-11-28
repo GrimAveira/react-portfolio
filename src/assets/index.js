@@ -21,9 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import exchange_rates from "./exchange_rates.png";
+import studio_nerds from "./studio_nerds.png";
+import elevator_repair from "./elevator_repair.png";
 
 export {
   logo,
@@ -47,7 +47,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  exchange_rates,
+  studio_nerds,
+  elevator_repair,
 };
