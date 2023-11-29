@@ -13,9 +13,9 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
+  exchange_rates,
+  studio_nerds,
+  elevator_repair,
   threejs,
 } from "../assets";
 
@@ -165,9 +165,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Exchange rates",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-application displays gifs depending on the exchange rate of the selected currencies.",
     tags: [
       {
         name: "react",
@@ -178,45 +178,23 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nestjs",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: exchange_rates,
+    source_code_link: "https://github.com/qtenebrae/web-development",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Layout Studio Nerds",
+    description: "Website layout in pure css html css html Studio Nerds",
     tags: [
       {
-        name: "react",
+        name: "layout",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -224,8 +202,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: studio_nerds,
+    source_code_link: "https://grimaveira.github.io/layout/",
+  },
+  {
+    name: "Elevator-repair",
+    description:
+      "A web application that provides the formation and processing of applications for elevator breakdowns, accounting of employees and details.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: elevator_repair,
+    source_code_link:
+      "https://github.com/GrimAveira/applications-for-elevator-repair",
   },
 ];
 
