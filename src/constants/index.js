@@ -9,14 +9,16 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
   exchange_rates,
   studio_nerds,
   elevator_repair,
+  fishing_industry,
+  cooking_recipes,
   threejs,
+  postgresql,
+  nestjs,
 } from "../assets";
 
 export const navLinks = [
@@ -79,10 +81,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -95,8 +93,12 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "postgresql",
+    icon: postgresql,
+  },
+  {
+    name: "nestjs",
+    icon: nestjs,
   },
 ];
 
@@ -133,33 +135,6 @@ const experiences = [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -227,6 +202,61 @@ const projects = [
     source_code_link:
       "https://github.com/GrimAveira/applications-for-elevator-repair",
   },
+  {
+    name: "Fishing-industry",
+    description:
+      "A mobile web application for local use in the company for accounting of fish, employees, etc.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fishing_industry,
+    source_code_link: "https://github.com/GrimAveira/fishing-industry",
+  },
+  {
+    name: "Cooking-recipes",
+    description:
+      "A graduation project, a website with cooking recipes and a sentimental neural network.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cooking_recipes,
+    source_code_link: "https://github.com/GrimAveira/cooking-recipes",
+  },
+  // {
+  //   name: "Adaptive-project",
+  //   description: "Adaptive test task and get request.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: elevator_repair,
+  //   source_code_link:
+  //     "https://github.com/GrimAveira/applications-for-elevator-repair",
+  // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
